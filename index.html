@@ -8,10 +8,12 @@
     test adding txt. 
     </h1>
 
-    <button id="dumbAlert">click</button>
+    <button id="dumbAlert" onclick="dumbAlert">click</button>
 
     <script>
-        document.getElementById("dumbAlert").onclick(()=> alert("this button is dumb."))
+        function dumbAlert() {
+            alert("this message was dumb")
+        }
     </script>
 
 </body>
