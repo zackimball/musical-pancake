@@ -2,7 +2,6 @@
 
 <head>
     <title>Test Static Site</title>
-    <script type="script" src="site.js"></script>
 </head>
 <body>
     <h1>
@@ -10,5 +9,9 @@
     </h1>
 
     <button id="dumbAlert">click</button>
+
+    <script>
+        document.getElementById("dumbAlert").onclick(()=> alert("this button is dumb."))
+    </script>
 
 </body>
